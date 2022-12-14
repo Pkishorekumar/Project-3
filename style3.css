@@ -1,0 +1,120 @@
+body{
+    background-color: #67676729;
+}
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    padding: 8px 0px 8px 150px;
+    
+}
+.one2{
+   
+    background-color: white;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 15em;
+    
+}
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    padding: 8px 0px 8px 150px;
+    
+}
+
+.one2:hover{
+    box-shadow: 0px 0px 10px 0px;
+}
+h4{
+    color:#00A5EC ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+}
+.one-2{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   
+}
+
+strong{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 30px 0px;
+}
+.one-1{
+    margin-left: 900px;
+}
+.one2{
+    color: black;
+}
+.anc-3{
+    text-decoration: none;
+    margin-left: 50px;
+}
+hr{
+    color: #d4cdcd29;
+}
+.kone{
+    font-size: x-large;
+}
+.anc-4{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+@media screen and (max-width:360px) {
+    .one-2{
+        flex-direction: column;
+    }
+    body{
+        background-color: whitesmoke;
+    }
+    .one2{
+        width: 270px;
+        height: 300px;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    .one2:hover{
+box-shadow: 0px 0px 5px 0px;
+    }
+    .kkone{
+        display: none;
+    }
+    header{
+        font-size: 15px;
+    }
+    .anc-3{
+       margin-right: 150px;
+       
+    }
+    .anc-4{
+        margin-right: 15px;
+    }
+    header{
+        width: 100%;
+        padding-left: 10px;
+    }
+    h4{
+        text-align: center;
+        font-size: 20px;
+        
+
+    }
+    input.box{
+       width: 15px;
+       height: 15px;
+    }
+    strong{
+        margin-bottom: 0px;
+    }
+    
+}
